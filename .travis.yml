@@ -6,6 +6,8 @@ jdk:
 notifications:
   email:
     - alexander.fedorov@arsysop.ru
+    - sergei.kovalchuk@arsysop.ru
+    - andrew.khitrin@arsysop.ru
     
 cache:
   directories:
