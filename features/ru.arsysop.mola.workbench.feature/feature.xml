@@ -19,24 +19,24 @@
 	Contributors:
 		ArSysOp - initial API and implementation
 -->
-<project
-	xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<feature
+      id="ru.arsysop.mola.workbench.feature"
+      label="%featureName"
+      version="0.1.0.qualifier"
+      provider-name="%providerName"
+      license-feature="ru.arsysop.mola.license.feature"
+      license-feature-version="0.1.0">
 
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>ru.arsysop.mola</groupId>
-	<artifactId>ru.arsysop.mola.aggregator</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
+   <description>
+      %description
+   </description>
 
-	<modules>
-		<module>..\..\releng\ru.arsysop.mola.target</module>
-		<module>..\..\features\ru.arsysop.mola.license.feature</module>
+   <copyright>
+      %copyright
+   </copyright>
 
-		<module>..\..\features\ru.arsysop.mola.workbench.feature</module>
+   <license url="%licenseURL">
+      %license
+   </license>
 
-		<module>..\..\releng\ru.arsysop.mola.repository</module>
-	</modules>
-
-</project>
+</feature>
