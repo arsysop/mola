@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_viDQgP_CEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_mG69YP_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.trimmedwindow.main" label="ArSysOp Mola">
+    <mainMenu xmi:id="_sZB0oP_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.menu.0">
+      <children xsi:type="menu:Menu" xmi:id="_37smkP_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.menu.file" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_5bp9cP_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.handledmenuitem.save" label="Save" tooltip="Save" command="_eT-lgP_DEeiKCvEvuAqOJg"/>
+      </children>
+    </mainMenu>
+  </children>
+  <bindingTables xmi:id="_JedIIP_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.bindingtable.global" bindingContext="_D3OZ4P_DEeiKCvEvuAqOJg">
+    <bindings xmi:id="_MakT8P_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.keybinding.m1n" keySequence="M1+N" command="_SZzSgP_DEeiKCvEvuAqOJg"/>
+    <bindings xmi:id="_hrCn8P_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.keybinding.m1s" keySequence="M1+S" command="_eT-lgP_DEeiKCvEvuAqOJg"/>
+  </bindingTables>
+  <rootContext xmi:id="_D3OZ4P_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.bindingcontext.global" name="Global Binding Context"/>
+  <commands xmi:id="_SZzSgP_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.command.global.new" commandName="New" description=""/>
+  <commands xmi:id="_eT-lgP_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.command.global.save" commandName="Save"/>
+  <addons xmi:id="_viDQgf_CEeiKCvEvuAqOJg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_viDQgv_CEeiKCvEvuAqOJg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_viDQg__CEeiKCvEvuAqOJg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_viDQhP_CEeiKCvEvuAqOJg" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_viDQhf_CEeiKCvEvuAqOJg" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_viDQhv_CEeiKCvEvuAqOJg" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_viDQh__CEeiKCvEvuAqOJg" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>
