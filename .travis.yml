@@ -8,7 +8,6 @@ notifications:
     - alexander.fedorov@arsysop.ru
     - sergei.kovalchuk@arsysop.ru
     - andrew.khitrin@arsysop.ru
-    - andrew.khitrin@arsysop.ru
     - dmitry.kudryavtsev@arsysop.ru
 
 cache:

@@ -3,10 +3,14 @@
   <children xsi:type="basic:TrimmedWindow" xmi:id="_mG69YP_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.trimmedwindow.main" label="ArSysOp Mola">
     <mainMenu xmi:id="_sZB0oP_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.menu.0">
       <children xsi:type="menu:Menu" xmi:id="_37smkP_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.menu.file" label="File">
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_5bp9cP_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.handledmenuitem.save" label="Save" tooltip="Save" command="_eT-lgP_DEeiKCvEvuAqOJg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_5bp9cP_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.handledmenuitem.exit" label="Exit" tooltip="Exit the Workbench" command="_ErbScP_NEeiKCvEvuAqOJg"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_K-lSkP_NEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.menu.help" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_MOFLkP_NEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.handledmenuitem.about" label="About" command="_IDPi0P_NEeiKCvEvuAqOJg"/>
       </children>
     </mainMenu>
   </children>
+  <handlers xmi:id="_ZpAfoP_NEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.handler.global.exit" command="_ErbScP_NEeiKCvEvuAqOJg"/>
   <bindingTables xmi:id="_JedIIP_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.bindingtable.global" bindingContext="_D3OZ4P_DEeiKCvEvuAqOJg">
     <bindings xmi:id="_MakT8P_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.keybinding.m1n" keySequence="M1+N" command="_SZzSgP_DEeiKCvEvuAqOJg"/>
     <bindings xmi:id="_hrCn8P_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.keybinding.m1s" keySequence="M1+S" command="_eT-lgP_DEeiKCvEvuAqOJg"/>
@@ -14,6 +18,8 @@
   <rootContext xmi:id="_D3OZ4P_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.bindingcontext.global" name="Global Binding Context"/>
   <commands xmi:id="_SZzSgP_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.command.global.new" commandName="New" description=""/>
   <commands xmi:id="_eT-lgP_DEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.command.global.save" commandName="Save"/>
+  <commands xmi:id="_ErbScP_NEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.command.global.exit" commandName="Exit"/>
+  <commands xmi:id="_IDPi0P_NEeiKCvEvuAqOJg" elementId="ru.arsysop.mola.workbench.command.global.about" commandName="About"/>
   <addons xmi:id="_viDQgf_CEeiKCvEvuAqOJg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_viDQgv_CEeiKCvEvuAqOJg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_viDQg__CEeiKCvEvuAqOJg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

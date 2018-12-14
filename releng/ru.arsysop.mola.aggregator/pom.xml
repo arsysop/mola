@@ -37,6 +37,8 @@
 		<module>..\..\bundles\ru.arsysop.mola.workbench</module>
 		<module>..\..\features\ru.arsysop.mola.workbench.feature</module>
 
+		<module>..\..\products\ru.arsysop.mola.workbench.product</module>
+
 		<module>..\..\releng\ru.arsysop.mola.repository</module>
 	</modules>
 
