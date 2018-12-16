@@ -19,22 +19,19 @@
 	Contributors:
 		ArSysOp - initial API and implementation
 -->
-<site>
-	<feature
-		url="features/ru.arsysop.mola.license.feature_0.1.0.qualifier.jar"
-		id="ru.arsysop.mola.license.feature"
-		version="0.1.0.qualifier" />
-	<feature
-		url="features/ru.arsysop.mola.workbench.feature_0.1.0.qualifier.jar"
-		id="ru.arsysop.mola.workbench.feature"
-		version="0.1.0.qualifier">
-		<category name="ru.arsysop.mola.category" />
-	</feature>
-	<category-def
-		name="ru.arsysop.mola.category"
-		label="Mola IDE">
-		<description>
-			ArSysOp Mola IDE Platform
-		</description>
-	</category-def>
-</site>
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>ru.arsysop.mola.bundles</artifactId>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>ru.arsysop.mola</groupId>
+        <artifactId>ru.arsysop.mola.parent</artifactId>
+        <version>0.1.0-SNAPSHOT</version>
+        <relativePath>../releng/ru.arsysop.mola.parent</relativePath>
+    </parent>
+</project>

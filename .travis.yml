@@ -2,13 +2,14 @@ language: java
 dist: trusty
 jdk:
   - oraclejdk8
-  
+
 notifications:
   email:
     - alexander.fedorov@arsysop.ru
     - sergei.kovalchuk@arsysop.ru
     - andrew.khitrin@arsysop.ru
-    
+    - dmitry.kudryavtsev@arsysop.ru
+
 cache:
   directories:
   - $HOME/.m2
@@ -17,4 +18,4 @@ before_install: echo "MAVEN_OPTS='-Xmx2048m'" > ~/.mavenrc
 
 install: true
 
-script: mvn clean verify -X
+script: mvn clean verify

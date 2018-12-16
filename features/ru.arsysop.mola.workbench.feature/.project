@@ -19,22 +19,19 @@
 	Contributors:
 		ArSysOp - initial API and implementation
 -->
-<site>
-	<feature
-		url="features/ru.arsysop.mola.license.feature_0.1.0.qualifier.jar"
-		id="ru.arsysop.mola.license.feature"
-		version="0.1.0.qualifier" />
-	<feature
-		url="features/ru.arsysop.mola.workbench.feature_0.1.0.qualifier.jar"
-		id="ru.arsysop.mola.workbench.feature"
-		version="0.1.0.qualifier">
-		<category name="ru.arsysop.mola.category" />
-	</feature>
-	<category-def
-		name="ru.arsysop.mola.category"
-		label="Mola IDE">
-		<description>
-			ArSysOp Mola IDE Platform
-		</description>
-	</category-def>
-</site>
+<projectDescription>
+	<name>ru.arsysop.mola.workbench.feature</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.pde.FeatureBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.pde.FeatureNature</nature>
+	</natures>
+</projectDescription>
