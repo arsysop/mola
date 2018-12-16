@@ -20,7 +20,7 @@
 		ArSysOp - initial API and implementation
 -->
 <projectDescription>
-	<name>ru.arsysop.mola.workbench</name>
+	<name>ru.arsysop.mola.runtime</name>
 	<comment></comment>
 	<projects>
 	</projects>
