@@ -34,6 +34,7 @@
 		<module>..\..\releng\ru.arsysop.mola.target</module>
 		<module>..\..\features\ru.arsysop.mola.license.feature</module>
 
+		<module>..\..\bundles\ru.arsysop.mola.runtime</module>
 		<module>..\..\bundles\ru.arsysop.mola.workbench</module>
 		<module>..\..\features\ru.arsysop.mola.workbench.feature</module>
 
