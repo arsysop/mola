@@ -31,6 +31,10 @@
                name="appName"
                value="%product.name">
          </property>
+         <property
+               name="applicationXMI"
+               value="ru.arsysop.mola/Mola.e4xmi">
+         </property>
       </product>
    </extension>
 
