@@ -21,13 +21,9 @@
 -->
 <site>
 	<feature
-		url="features/ru.arsysop.mola.license.feature_0.1.0.qualifier.jar"
-		id="ru.arsysop.mola.license.feature"
-		version="0.1.0.qualifier" />
+		id="ru.arsysop.mola.license.feature"/>
 	<feature
-		url="features/ru.arsysop.mola.workbench.feature_0.1.0.qualifier.jar"
-		id="ru.arsysop.mola.workbench.feature"
-		version="0.1.0.qualifier">
+		id="ru.arsysop.mola.workbench.feature">
 		<category name="ru.arsysop.mola.category" />
 	</feature>
 	<category-def
