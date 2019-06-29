@@ -34,5 +34,6 @@ hs_err_pid*
 #m2e
 /.settings/
 /.project
+products/**/.settings/
 releng/**/.settings/
 releng/**/.project
