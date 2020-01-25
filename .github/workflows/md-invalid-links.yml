@@ -1,0 +1,30 @@
+name: Check md-files for dead links
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 0
+      - run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git fetch origin master
+          git rebase origin/master
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "10"
+      - name: Install markdown-link-check
+        run: npm install -g markdown-link-check
+      - name: Verify links
+        run: |
+          files=$(find . -name \*.md)
+          for file in $files; do
+              markdown-link-check -q $file
+          done
