@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-	Copyright (c) 2018 ArSysOp
+	Copyright (c) 2018, 2020 ArSysOp
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -31,7 +31,7 @@
 	<parent>
 		<groupId>ru.arsysop.mola</groupId>
 		<artifactId>ru.arsysop.mola.parent</artifactId>
-		<version>0.1.0-SNAPSHOT</version>
+		<version>0.2.0-SNAPSHOT</version>
 		<relativePath>../../releng/ru.arsysop.mola.parent</relativePath>
 	</parent>
 </project>
