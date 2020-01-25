@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Automatic-Module-Name: ru.arsysop.mola.runtime
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: ru.arsysop.mola.runtime
-Bundle-Version: 0.1.0.qualifier
+Bundle-Version: 0.2.0.qualifier
 Bundle-Name: %Bundle-Name
 Bundle-Vendor: %Bundle-Vendor
 Bundle-Copyright: %Bundle-Copyright
