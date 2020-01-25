@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-	Copyright (c) 2018 ArSysOp
+	Copyright (c) 2018, 2020 ArSysOp
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -22,10 +22,10 @@
 <feature
       id="ru.arsysop.mola.workbench.feature"
       label="%featureName"
-      version="0.1.0.qualifier"
+      version="0.2.0.qualifier"
       provider-name="%providerName"
       license-feature="ru.arsysop.mola.license.feature"
-      license-feature-version="0.1.0">
+      license-feature-version="0.2.0">
 
    <description>
       %description
