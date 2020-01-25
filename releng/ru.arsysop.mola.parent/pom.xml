@@ -27,7 +27,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ru.arsysop.mola</groupId>
 	<artifactId>ru.arsysop.mola.parent</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<version>0.2.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<properties>
